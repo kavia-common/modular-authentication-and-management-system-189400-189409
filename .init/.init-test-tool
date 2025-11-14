@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/modular-authentication-and-management-system-189400-189409/frontend_react_spa"
+}
