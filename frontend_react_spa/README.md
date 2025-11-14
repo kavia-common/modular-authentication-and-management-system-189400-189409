@@ -18,9 +18,21 @@ In the project directory, you can run:
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+### Testing
 
-Launches the test runner in interactive watch mode.
+Run the test suite in CI/non-interactive mode:
+
+CI=true npm test -- --watchAll=false
+
+Run in watch mode:
+
+npm run test:watch
+
+Generate coverage:
+
+npm run test:coverage
+
+See TESTING.md for more details.
 
 ### `npm run build`
 
