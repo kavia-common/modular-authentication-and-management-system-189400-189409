@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { RoutesPlaceholder } from '../src/routes/RoutesPlaceholder';
+import { RoutesPlaceholder } from '../routes/RoutesPlaceholder';
 
 describe('Routing placeholder', () => {
   test('renders Home route', () => {

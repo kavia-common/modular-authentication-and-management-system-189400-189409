@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import App from '../src/App';
+import App from '../App';
 
 describe('App root', () => {
   it('renders learn react link text and theme button', () => {

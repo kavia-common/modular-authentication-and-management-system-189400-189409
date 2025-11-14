@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import React from 'react';
-import ErrorBoundary from '../src/components/ErrorBoundary';
+import ErrorBoundary from '../components/ErrorBoundary';
 
 function Boom() {
   throw new Error('Boom!');

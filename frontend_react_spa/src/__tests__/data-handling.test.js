@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from '@testing-library/react';
-import DataWidget from '../src/components/DataWidget';
+import DataWidget from '../components/DataWidget';
 
 describe('DataWidget', () => {
   const originalFetch = global.fetch;
